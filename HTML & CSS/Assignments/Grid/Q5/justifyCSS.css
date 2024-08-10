@@ -1,0 +1,17 @@
+.items{
+    display: grid;
+    grid-template-columns: repeat(2,150px);
+    grid-template-rows: repeat(2,80px);
+    
+    justify-items:end ;
+    gap: 20px;
+}
+.box{
+    border: solid 1px;
+    background-color: burlywood;
+}
+#div1{
+}
+#div1{
+    justify-self:center ;
+}

@@ -1,0 +1,30 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(6,150px);
+    grid-template-rows: repeat(2,100px);
+    gap: 10px;
+}
+.box{
+    display: grid;
+    border-radius: 5px;
+    padding: 40px 30px;
+    
+}
+.box:nth-child(odd){
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
+.box:nth-child(even){
+    background-color: rgb(215, 221, 225);
+    color: black;
+}
+
+/* Specific positions for each box */
+#box1 { grid-column: 1; grid-row: 2; }
+#box2 { grid-column: 2; grid-row: 2; }
+#box3 { grid-column: 1; grid-row: 1; }
+#box4 { grid-column: 2; grid-row: 1; }
+#box5 { grid-column: 3; grid-row: 1; }
+#box6 { grid-column: 4; grid-row: 1; }
+#box7 { grid-column: 5; grid-row: 1; }
+#box8 { grid-column: 6; grid-row: 1; }

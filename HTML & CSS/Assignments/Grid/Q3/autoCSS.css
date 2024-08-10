@@ -1,0 +1,16 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-auto-rows: 100px; /* Set the height of auto-generated rows */
+    grid-auto-columns: 100px; /* Set the width of auto-generated columns */
+    gap: 20px;
+}
+
+.grid-item {
+    background-color: #e061f4;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+}

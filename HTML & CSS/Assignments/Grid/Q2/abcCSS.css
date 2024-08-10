@@ -1,0 +1,26 @@
+#conatiner{
+    display: grid;
+    grid-template-columns: repeat(3,100px) ; 
+    grid-template-rows:80px 80px ;
+    gap: 10px;
+    grid-template-areas: 
+    'A A B'
+    'C D B';
+}
+.items{
+    background-color:bisque;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+#A{
+    grid-area: A;
+}
+#B{
+    grid-area: B;
+}
+#C{
+    grid-area: C;
+}
+#D{
+    grid-area: D;
+}
