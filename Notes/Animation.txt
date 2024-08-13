@@ -1,0 +1,116 @@
+CSS Animation 
+Animation in CSS has three major concepts:-
+1.tranforms
+2.transitions
+3.keyframes
+
+1]Tranforms 
+Change HTML element in 2D-plane
+move from one position to other ,resizing ,rotations, streching.
+  i)rotations
+ ii)Scale
+iii)Skew
+ iv)Translate
+
+ *Translate*
+ Move in X and Y axis ,change the position of HTML element
+
+ *Rotate*
+ Roatate in 3D value indegree is given as value 
+   rotateX
+   rotateY
+   rotateZ
+   roatate= in 2D plane,both X and Y rotate
+   rotate3d= X ,Y and Z
+
+ *Scale*
+ Resize element,make it bigger or smaller
+ scaleX
+ scaleY
+ scaleZ
+ scale3d
+
+ *Skew*
+ Tilt or stretch element in X and Y axis  
+
+Matrix
+To combine all the tranformation property together we can use matrix as
+ tranformation:matrix(scaleX,scaleY,skewX,skewY,translateX,translateY); 
+
+
+=================================================================================
+
+2]Transitions
+If Changes are happening on webpage then CSS is used to make the transition appear smooth,tehn transition are used.
+
+transition-property
+ We can select which property transition we are targeting
+
+tansition-duration
+ How much time is taken to complete the transition 
+
+ transition-delay
+ defines a specific time after which the transition affect should be applied
+
+ transition-timing-function
+ Helps to decide how transition properties change during a transition
+   ease=Start slow end slow and faster in middle
+   linear=same speed throughout
+   ease-in=Starts slow ,ends very fast
+   ease-out=Start Fast ,ends very slow
+   steps-end=specify the transition with a constant begining that ends instantly
+   cubic-biezer 
+
+transition:transition-property transition-duration transition-timing-function transition-delay
+
+3]Keyframe
+ It is a keyword 
+ @keyframes
+
+ CSS rules
+ Keyframes are defined in percentage,these percentage shows the part of animation execution time.
+0% start of animation 100% at the end of it.
+
+
+@keyframes name{
+    0%{
+        background-color:orange;
+    }
+    10%{
+        background-color:lightblue;
+    }
+    80%{
+        ...
+    }
+}
+1.animation-delay
+ The animation-delay property specifies the delay in time before the animation starts.
+ Representated in sec or milisec 
+
+2.Animation name
+ This property is used to set name to animation and use it to create keyframe.
+ Keyframes contains the change in CSS that should happen when an animation is triggered.
+
+3.animation iteration count 
+ Defines the number of time animation  needs to continue,we can define this count in terms of once or infinite.
+
+4.Animation direction
+This specifies the direction in which keyframes change the need to execute in animation,The normal execution flow takes the changes from 0-100
+in Reverse keyframes will execute from 100 to 0
+
+Reverse
+alternate
+Reverse
+alternate
+normal
+alternate-reverse
+
+5.Animation timing function
+ This specifies how the transition should sail throuhout it's execution span.it is very similar to that of transition-timing-function
+
+6.Animation property
+ Shorthand everything together
+
+ animation:animation-name animation-duration animation-timing-function animation-delay animation-iteration-count
+
+=================================================================================
