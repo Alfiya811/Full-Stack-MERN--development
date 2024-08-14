@@ -1,0 +1,83 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", sans-serif; 
+}
+#conatainer{
+    background-color: rgba(244, 242, 253, 1);
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    border-collapse: collapse;
+    gap: 34px;
+    justify-content:center ;
+    align-items: center;
+    flex-grow: 2;
+}
+
+.card{
+    display:flex;
+    width:20%;
+    height: 65%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    background-color:rgba(255, 255, 255, 1);
+    box-shadow: 0px 1px 10px 0px ;/*Shadow*/
+    padding: 32px;
+    /* color:  rgba(32, 40, 66, 1); */
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    justify-content: center;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+}
+#foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+.body{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#inFoot{
+    height: 100%;
+    width: 100%;
+    color:rgba(255, 255, 255, 1);
+    background-color: rgba(32, 40, 66, 1);
+    border: 1px;
+    border-radius: 30px;
+    text-align: center;
+    align-content: center; 
+    align-self: center;
+    justify-self: center;
+
+    /* margin-left: 50px; */
+}
+p{
+    line-height: 200%;
+}
+#midCard{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(32, 40, 66, 1);
+
+}
+#MidInFoot{
+    height: 100%;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 1);
+    color: rgba(32, 40, 66, 1);
+    border: 1px;
+    border-radius: 30px;
+    text-align: center;
+    align-content: center; 
+}

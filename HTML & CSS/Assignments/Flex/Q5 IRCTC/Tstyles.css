@@ -1,0 +1,222 @@
+*{
+    margin:0%;
+    padding: 0%;
+} 
+html,body{
+    height:100%;
+    width: 100%;
+}
+#hed{
+    height: 8%;
+    width: 100%;
+    background-color: #090909f6;
+    padding: 10px;   
+}
+#hed hr{
+    margin-top: 10;
+    border-color: rgb(57, 54, 54);
+}
+#hed p{
+    color: rgb(240, 100, 49);
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: inter;
+    margin: 14px;
+    margin-left: 4%;
+}
+#para pre{
+    height: 15%;
+    width: 100%;
+    font-size: larger;
+    font-family: inter;
+    border-top: solid black;
+    margin: 10px;
+}
+b{
+    font-weight: bolder;
+}
+#box{
+    height: 100%;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center ;
+    margin-left: 7%;
+    border: solid;   
+}
+#box1{
+    background-color: white;
+    height: 98%;
+    width: 50%;
+    margin: 10px;
+}
+#box2{
+    background-color: white;
+    height: 98%;
+    width: 50%;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+#box2 img {
+    
+    width:80%;
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 1px;
+}
+a{
+    color: black;
+    font-weight: bolder;
+}
+#last pre{
+    width: 100%;
+    height: fit-content;
+    font-size: large;
+    font-family: inter;
+}
+#photo{
+    display: inline;
+    display: flex;
+    margin-top: 20px;
+}
+#img1 img{
+    margin: 10px;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+#img2 img{
+    margin: 10px;
+    border-radius: 30%;
+}
+.define pre{
+   margin-top: 10px;
+    margin-left: 80%;
+}
+#buttons{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;  
+}
+.login{
+    background-color: rgba(251, 121, 43, 1);
+    color: white;
+    display: inline;
+    height: 20px;
+    margin-right: 10px;  
+}
+.register{
+    display: inline;  
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: azure;
+}
+.agentlogin{
+    display: inline;
+    margin-left: 5px;
+    background-color: white; 
+}
+#idian{
+   font-size: larger;
+    margin-right: 70%;
+    margin-top: 3%;
+    font-weight: 900;
+    font-family: inter;   
+}
+#name{
+    display: flex;
+    margin: 3px;
+    font-weight: bolder;
+}
+.saf{
+    color: rgb(28, 216, 28);
+    margin-left: 7px;
+}
+.sacu{
+    color: rgb(218, 104, 63);
+    margin-left: 20px;
+}
+.pun{
+    color: rgba(0, 0, 108, 0.878);
+    margin-left: 20px;
+}
+#click{
+    display: flex;
+    margin: 10px;
+}
+.btn{
+    border: solid 1px;
+    border-radius: 5%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    padding: 2%;
+}
+#b{
+    color: white;
+    background-color: rgba(0, 0, 108, 0.878);
+    margin-right: 10px;
+}
+#p{
+    margin-right: 10px;
+    background-color:rgba(232, 233, 233, 0.992);
+}
+#c{
+    background-color: rgba(232, 233, 233, 0.992);
+}
+#lb{
+    border: 1.01px solid rgba(51, 51, 51, 0.1);
+    border-collapse: collapse;
+    width: 80%;
+    height: 15%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+#lb1{
+    border: 1.01px solid rgba(51, 51, 51, 0.1);
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 15%;
+    margin-left: 15%;
+    margin-top: 10px;
+}
+#search{
+    width: 80%;
+    height: 8%;
+    background-color: rgb(55, 189, 55);
+    color: azure;
+   margin-top: 5%;
+    margin-left: 15%;
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    font-weight: 300;
+}
+.trainMan{
+width: 32.44px;
+height: 32.44px;
+gap: 0px;
+opacity: 0px;
+}
+#leftTrain{
+    top: 563.72px;
+    left: 121.67px;
+    }
+#RightTrain{
+top: 559.67px;
+left: 455.24px;
+}
+#Calender{
+ width: 32.44px;
+height: 31.06px;
+top: 694.73px;
+left: 120.67px;
+gap: 0px;
+opacity: 0px;
+}

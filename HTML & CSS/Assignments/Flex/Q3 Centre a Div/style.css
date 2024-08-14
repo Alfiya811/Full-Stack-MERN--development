@@ -1,0 +1,14 @@
+#container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box{
+    background-color: rgba(87, 255, 241, 0.962);
+    height: 350px;
+    width: 350px;
+    display: flex;
+}
