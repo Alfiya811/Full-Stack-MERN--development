@@ -1,0 +1,20 @@
+Var fn in CSS 
+The var() function in CSS is ued to  define and use custom CSS variables, allowing for reusable values throughout the stylesheet.
+
+Syntax to define and use var() fn:-
+Declare: :root { 
+    --variable-name: value;
+     }
+Use: selector { 
+    property: var(--variable-name); 
+    }
+
+Ex:-
+//In CSS file
+    :root{
+        --Lightblue:rgb(215, 245, 255);
+    }
+    //Use to var() fn 
+    body{
+        background-color:var(--Lightblue);
+    }

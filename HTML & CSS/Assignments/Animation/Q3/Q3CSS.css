@@ -1,0 +1,31 @@
+body{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+.loader{
+    height: 50px;
+    width: 50px;
+    
+    justify-content: center;
+    align-items: center;
+}
+#load{
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid rgb(123, 218, 255);
+    border-radius: 50%;
+    /* animation:spin 2s linear infinite; */
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-timing-function: linear ;
+    animation-iteration-count: infinite;   
+}
+@keyframes spin
+{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

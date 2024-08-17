@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    gap: 2px;
+}
+:root{
+    --primaryColor:rgb(6, 204, 234);
+    --secondaryColor: rgb(170, 156, 156);
+}
+.btn{
+    border: 1px;
+    border-collapse: collapse;
+}
+#primaryBtn{
+    height: 30px;
+    width: 150px;
+    background-color: var(--primaryColor);
+}
+#secondaryBtn{
+    height: 30px;
+    width: 150px;
+    background-color: var(--secondaryColor);
+}
