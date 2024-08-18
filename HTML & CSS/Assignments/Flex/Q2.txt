@@ -1,0 +1,14 @@
+1)Justify-content
+     justify-content helps control how the items are spaced and aligned along the main axis of the container.
+
+2)align-items
+     align-items helps control how the items are spaced and aligned along the main axis of the container.
+
+3)gap
+      Gap is used add spacing between items in both Flexbox and Grid layouts, single value-Sets both row and column gaps to the same value.Two Values:the first value sets the row gap, and the second value sets the column gap.
+
+4)flex-direction 
+     Used to set the direction of flex as column or row.
+
+5)flex-wrap
+      Property in CSS controls whether flex items should wrap onto multiple lines or stay on a single line within a flex container. 

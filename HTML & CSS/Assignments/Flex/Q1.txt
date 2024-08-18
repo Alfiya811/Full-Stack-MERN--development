@@ -1,0 +1,15 @@
+#CSS Flex/Flexbox
+*Flex is designed for one-dimensional layouts for 1-axis, meaning it works well for arranging items in a row or column.It’s ideal for aligning items within a container.
+*Flexbox is used for simpler layouts where you need to align items in a single direction (either horizontally or vertically). It's great for things like navigation bars, toolbars, or simple item lists.
+ex:-
+body{
+   display: flex ;
+   }
+
+#CSS Grid 
+*CSS Grid is used usually for two-dimensional layouts, handling both rows and columns simultaneously. It’s great for creating complex grid-based layouts, with precise control over the placement and sizing of items across both axes.
+*Grid is used for more complex layouts where you need control over both rows and columns. It’s ideal for building entire page layouts, like grids of cards, magazine-style layouts, or dashboard interfaces.
+ex:-
+body{
+   display: flex ;
+   }
