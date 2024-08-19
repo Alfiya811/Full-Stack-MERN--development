@@ -1,0 +1,32 @@
+---------Responsive website---------------
+Focus on transforming desktop based webapps/websites to mobile compatible .
+#To make web responsive we use CSS media CSS MEDIA QUERIES
+
+o> MEDIA QUERIES
+  Rules that will help us to apply specific styles to specific screen sizes.
+  Can be used for  range of sizes
+
+@media media-type and (media-feature-rule)
+{
+    //CSS changes
+}
+ex:-
+@media screen and(max-width)
+{
+    nav{
+        flex-direction: column;
+    }
+}
+
+*@media This is a keyword in CSS that specifies the beginning of media query
+*media-type Type of media for applying the styles They can be
+-Screen
+-print or all
+*media-feature-rule conditions which we define in our media query to apply styles based on the conditions.
+
+*min-width at least given width or more
+*max-width at most given width or less
+*orientation Based on device orientation i.e. Landscape and portrait 
+#We can combine multiple rules using operator
+ex= width<=570px and width>=540px
+
