@@ -1,0 +1,26 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+#d1 {  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+#d1 img {
+    width: 30%; 
+    height: auto;
+}
+@media screen and (max-width: 800px) {
+    #d1 img {
+        width: 45%;
+    }
+}
+@media screen and (max-width: 500px) {
+    #d1 img {
+        width: 90%; 
+    }
+}
