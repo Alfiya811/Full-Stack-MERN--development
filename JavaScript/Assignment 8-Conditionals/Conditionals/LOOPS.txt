@@ -1,0 +1,21 @@
+LOOPS
+->Iterative statements that are useed to repeat the block of code ,until a specified condition evaluates to false.
+     i)for
+    It consists of inintailiation, condition check and increment or decrement;Repeats code until the condition is false.
+        Syntax = for (initial; condition; update) { // code }
+        Example= for(i=0;i<n;i++) { i=i*i; }
+
+     ii)while 
+    Check condition for entry in while block, repeated only uptill condition is true
+        Syntax = while(condition) { // code }
+        Example= while(condition) { //print Hii }
+
+     iii)do-while
+    Run code atleast once then check condition for entry in while block, repeated only uptill condition is true.
+        Syntax = do{
+                      //code 
+                    }while(condition);
+
+        Example= do{
+                      console.log.out("Hii")
+                    }while(condition);

@@ -1,0 +1,28 @@
+#Contional Statements
+These are statements which check particular condition to evaluate to (Boolean value) either TRUE or FALSE.
+
+##Can be categorized as :-
+    i)Iterative statements = Repeate code until condition is satisfeid
+    ii)Non-Iterative statements = Execute code only once after condition is satisfeid
+
+=>Non-Iterative statements
+     i)if
+        Syntax=  if (condition) { // code }
+        Example= if (n>0) { //Print Positive number }
+     ii)if-else
+        Syntax=  if (condition) { // code }else { // else code }
+        Example= if (n>0) { //Print Positive number }; 
+                 else { //Print Negative number};
+     iii)Nested-if
+        Syntax= if (condition1) { if (condition2) { // code block } }
+        Example=if (n>=0) { if (n==0) { // print Zero  } }
+     iv)if-else-if ladder
+        Syntax=if (condition1) { // code block } else if (condition2) { // code block }
+        Example= if(marks>50)
+                    {
+                        //print Marks 50+
+                    }
+                else if(marks< 50){
+                        //print Marks -50
+                    }
+     
