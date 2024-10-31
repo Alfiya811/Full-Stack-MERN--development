@@ -1,0 +1,32 @@
+HTML
+HyperText Markup Language(not programming lanuguage)
+Used for creating webpages and web-applications
+Describes the structure of web page
+Invented by 'TIM BERNER LEE' in 1992
+Saved with .html or .htm extensions
+
+--TAGS--
+  HTML marup tags are called HTML tags
+  Keywords surrounded by angle brackets '<' '>'
+  Usually in pairs i.e. Opening and Closing tag
+    ex:-  <p>--</p>
+
+--Elements--
+HTML elements defined by starting tag, some content and ending tag
+
+Syntax:-
+    <tagname>..content..<\tagname>
+
+Note:HTML is not case sensitive thus, Head, HEAD, head, etc all of them are valid and same.
+<!-- Structure of HTML -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Webpage</title>
+</head>
+
+<body>
+  Main  Content here
+</body>
+
+</html>

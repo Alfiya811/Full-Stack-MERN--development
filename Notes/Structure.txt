@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    Defines that this document is ans html document.
+
+<html>...</html>
+    Root element of html page
+
+<head>...</head>
+    Contains meta information about html page
+  eg:-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>...</title>
+    Specifies the title of HTML page
+
+<body>...</body>
+    Defines the document body and it is container for all visible content such as heading,paragraph,images,etc.
+
+-Heading tags-
+There are 6 heading tags in decreasing order of thier size
+<h1>heading</h1>
+<h2>heading</h2>
+<h3>heading</h3>
+<h4>heading</h4>
+<h5>heading</h5>
+<h6>heading</h6>
+Where H1 is largest heading and H6 is smallest
+
+<p></p>
+Paragraph tag ,defines a paragraph.
+
+===HTML COMMENTS==
+Some text or code to expalin code(or Documentation) that should not be visible on webpage 
+There are two types of comments in HTML :-
+    i)Single line
+        <!--Single line-->
+    ii)Multi-line comment
+        <!--
+        this has
+        Multiple
+        lines   
+        -->
+
