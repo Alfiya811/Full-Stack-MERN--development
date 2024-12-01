@@ -1,0 +1,3 @@
+document.querySelector('.hero button').addEventListener('click', () => {
+  alert('Redirecting to the menu!');
+});

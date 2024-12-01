@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #ff5733;
+  color: white;
+  padding: 10px 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  background-image: url('Images/bg-image.png'); 
+  background-size: cover;
+  color: white;
+  padding: 50px 20px;
+  height: 1200;
+  width: 300;
+}
+
+.hero button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff5733;
+  color: white;
+  cursor: pointer;
+}
+
+.categories, .featured-products {
+  padding: 20px;
+  text-align: center;
+}
+
+.category-grid, .product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.category, .product {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #ff5733;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
