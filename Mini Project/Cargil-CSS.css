@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: 'Open-Sans', sans-serif;
+}
+
+.copyRight,
+.hero,
+.band {
+  min-width: none;
+  overflow-x: hidden;
+  scrollbar-width: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+.logo img {
+  width: 180px;
+  height: auto;
+}
+
+.inner {
+  display: flex;
+  gap: 30px;
+}
+
+.element a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #0d0d3c;
+}
+
+.element a:hover {
+  text-decoration: solid 3px underline rgb(255, 201, 51);
+}
+
+.phone-num {
+  background-color: rgb(255, 201, 51);
+  color: #0d0d3c;
+  font-weight: bold;
+  padding: 10px 18px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.phone-num:hover {
+  text-decoration-color: rgb(222, 112, 28);
+  color: #0d0d3c;
+}
+
+.hero-Img hero {
+  width: 1900px;
+  height: 240px;
